@@ -1,0 +1,145 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+}
+
+body {
+     font-size: 100%;
+     background-image: linear-gradient(68.15deg, #1E1F22, #1E1F22, aquamarine);
+}
+
+.header {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     padding: 10px;
+}
+
+.header h2 {
+     color: aquamarine;
+     font-weight: 600;
+     font-size: 30px;
+}
+
+.navegation {
+     display: flex;
+     gap: 30px;
+}
+
+.navegation a {
+     color: white;
+     font-weight: 400;
+     font-size: 15px;
+}
+
+.header button {
+     background-color: aquamarine;
+     width: 100px;
+     height: 40px;
+     border: none;
+     border-radius: 40px;
+     border-shadow: 4px 5px 4px rgba(0, 0, 0, 0.30);
+     color: #1E1F22;
+     font-weight: 600;
+     font-size: 15px;
+}
+
+.main {
+     border-top: 0.5px solid white;
+     margin-bottom: 20px;
+}
+
+.section1 {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 20px;
+     padding: 20px;
+}
+
+.home {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     width: 500px;
+}
+
+.home h1 {
+     color: white;
+     font-weight: 800;
+     font-size: 50px;
+}
+
+.home h3 {
+     color: white;
+     font-weight: 400;
+     font-size: 15px;
+}
+
+.home button {
+     background-color: aquamarine;
+     width: 100px;
+     height: 40px;
+     border: none;
+     border-radius: 40px;
+     border-shadow: 4px 5px 4px rgba(0, 0, 0, 0.30);
+     color: #1E1F22;
+     font-weight: 600;
+     font-size: 15px;
+}
+
+img {
+     height: 200px;
+     max-width: 100%;
+}
+
+.section2 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 10px;
+     margin-top: 20px;
+}
+
+.section2 h3 {
+     border-top: 0.5px solid white;
+     padding-top: 20px;
+     margin-bottom: 10px;
+     color: white;
+     font-weight: 500;
+     font-size: 20px;
+}
+
+.section2 p {
+     color: white;
+     font-weight: 300;
+     font-size: 15px;
+}
+
+.footer {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     border-top: 0.5px solid white;
+     align-items: center;
+}
+
+.footer div {
+     padding: 10px
+}
+
+.footer h2 {
+     color: aquamarine;
+     font-weight: 600;
+     font-size: 30px;
+}
+
+.footer p {
+     color: white;
+     font-weight: 400;
+     font-size: 15px;
+}
